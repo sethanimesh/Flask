@@ -1,3 +1,10 @@
+##Jinja2 template Engine
+'''
+{%...%} for statements
+{{   }} expressions to print output
+{#.....#} comments
+'''
+
 from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask("__name__")
