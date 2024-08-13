@@ -3,7 +3,7 @@ from flask import Flask
 ### WSGI Application
 app=Flask(__name__)
 
-@app.route("/")
+@app.route("/")##Decorator
 def welcome():
     return "Welcome to my First Flask Application."
 
